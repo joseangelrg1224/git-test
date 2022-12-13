@@ -7,7 +7,7 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: orange;
+  color: #3046c5;
 }
 
 header h2 {
@@ -22,7 +22,7 @@ header h2 {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, orange, #60106b);
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
   color: white;
 }
 
@@ -56,4 +56,4 @@ a, a:hover {
   z-index: 100;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
