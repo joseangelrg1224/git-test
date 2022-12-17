@@ -30,7 +30,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <a role="button" class=" btn btn-info btn-large text-nowrap" data-toggle="modal" data-target="#reserveModal" title="Or call us at <br/><strong>1-206-555-1234</strong>">Reserve Campsite</a>
+                    <a role="button" class=" btn btn-info btn-large text-nowrap" id="reserveButton" title="Or call us at <br/><strong>1-206-555-1234</strong>">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">
                         Reserve Campsite
                     </h3>
@@ -106,10 +106,10 @@
                     <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-addres-card fa-lg"></i> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -200,6 +200,7 @@
                         <button class="btn btn-danger btn-sm" id="carouselButton">
                             <i class="fa fa-pause"></i>
                         </button>
+                    </div>
                 </div>
             </div>
         </div>
